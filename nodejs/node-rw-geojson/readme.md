@@ -1,0 +1,2 @@
+node-rw-geojson
+对多个geojson进行读取，然后提取出中间的features，最终合并为一个geojson
