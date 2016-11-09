@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "your-extension-name",
+    "version": "1.0",
+    "description": "description",
+    "icons": {
+        "16": "images/16px.png",
+        "48": "images/48px.png",
+        "128": "images/128px.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "24": "images/24px.png",
+            "48": "images/48px.png"
+        },
+        "default_title": "your-extension-name",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab "
+    ],
+    "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'"
+}
