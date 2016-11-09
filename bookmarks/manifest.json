@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "bookmarks-search",
+  "version": "1.0",
+  "description": "a tool of bookmarks search",
+  "icons": {
+    "16": "images/search16px.png",
+    "48": "images/search48px.png",
+    "128": "images/search128px.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "24": "images/search24px.png",
+      "48": "images/search48px.png"
+    },
+    "default_title": "bookmarks search",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "bookmarks"
+  ],
+  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'"
+}
